@@ -1,0 +1,25 @@
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url(Basketball\ Wallpaper\ HD\ Net.jpg);
+}
+
+.outer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    background-color: red;
+    color: #EEEEEE;
+    height: 50vh;
+    width: 50vw;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
