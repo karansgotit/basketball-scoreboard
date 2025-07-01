@@ -1,7 +1,9 @@
 let home_score = document.getElementById("score-home")
 let away_score = document.getElementById("score-guest")
-let count = 0
+let count_home = 0
+let count_away = 0
 
 function home_one_point(){
-
+    count_home += 1
+    home_score.textContent = count_home
 }
