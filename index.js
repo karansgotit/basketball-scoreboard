@@ -7,3 +7,13 @@ function home_one_point(){
     count_home += 1
     home_score.textContent = count_home
 }
+
+function home_two_point(){
+    count_home += 2
+    home_score.textContent = count_home
+}
+
+function home_three_point(){
+    count_home += 3
+    home_score.textContent = count_home
+}
