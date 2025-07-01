@@ -48,6 +48,14 @@ body {
     color: #9AABD8;
     cursor: pointer;
 }
+
+.reset-button{
+    font-size: 15px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .buttons{
     display: flex;
     margin: 15px;
