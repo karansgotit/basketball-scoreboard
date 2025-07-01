@@ -37,18 +37,30 @@ body {
     height: 100vh;
 }
 
+.button-styling{
+    font-family:'Cursed-timer',sans-serif; 
+    height: 45px;
+    width: 45px;
+    background-color: #1B244A;
+    border-radius: 5px;
+    border:2px solid #9AABD8;
+    font-size: 20px;
+    color: #9AABD8;
+    cursor: pointer;
+}
 .buttons{
     display: flex;
     margin: 15px;
-    justify-content: space-around;
+    justify-content: flex-start;
+    gap:10px;
 }
 .container {
     display: flex;
     justify-content: space-around;
     align-items:flex-start;
-    background-color: #D97706;
+    background-color: #1B244A;
     padding: 0 16px;;
-    color: #FEF3C7;
+    color: #EEEEEE;
     height: 50vh;
     width: 35vw;
     font-size: 3.5vh;
